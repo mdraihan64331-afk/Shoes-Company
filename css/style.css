@@ -1,0 +1,156 @@
+nav {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.384);
+}
+
+.option ul li a {
+  font-weight: 600;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 100;
+}
+
+/* =============================== */
+
+.container h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-weight: 700;
+}
+
+.container h5 {
+  font-weight: 700;
+}
+
+.container p {
+  font-weight: 600;
+}
+
+.tk {
+  color: #000;
+}
+
+.bd .card {
+  border: 2px solid #ffffff;
+  transition: 0.3s;
+}
+
+.bd .card:hover {
+  border: 2px solid rgba(0, 0, 0, 0.158);
+  box-shadow: 0 0 10px #000;
+  background: linear-gradient(#0022ff, #9356fc, #d200fc, #ff05a8, #ff0505);
+  color: #ffffff;
+}
+
+.bd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button a {
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  color: greenyellow;
+  background: #ffffff67;
+  border: none;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.button a:hover {
+  background: #fff;
+  color: #ff0505;
+}
+
+.button {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.bd .card:hover .button {
+  opacity: 1;
+}
+
+/* ====================================== */
+
+.footer-bg {
+  background: #dfdfdf;
+  border-top: 2px solid #99999a;
+}
+
+.icon {
+  font-size: 35px;
+}
+
+.follow {
+  font-weight: 600;
+  color: #000;
+}
+
+.facebook-icon {
+  color: #0866ff;
+}
+
+.instagram-icon {
+  color: #ff068d;
+}
+
+.twitter-icon {
+  color: #000000;
+}
+
+.link-in-icon {
+  color: #0274b2;
+}
+
+.useful {
+  font-weight: 600;
+  color: #000000;
+}
+
+.useful-links ul {
+  font-weight: 600;
+  color: #242424;
+}
+
+.opening-time {
+  font-weight: 600;
+  color: #000;
+}
+
+.opening p {
+  font-weight: 600;
+  color: #242424;
+}
+
+.footer-bg2 {
+  background: #dfdfdf;
+  border-top: 2px solid #99999a;
+}
+
+.copy-right p {
+  font-weight: 600;
+  color: #000;
+}
+
+.copy-right {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.arrow-icon {
+  font-size: 35px;
+  color: #0795ed;
+  transition: .3s;
+}
+
+.arrow-icon:hover {
+  transform: scale(1.5);
+}
